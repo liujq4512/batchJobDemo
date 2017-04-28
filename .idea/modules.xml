@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/batchJob/batchJob.iml" filepath="$PROJECT_DIR$/.idea/modules/batchJob/batchJob.iml" group="batchJob" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/batchJob/batchJob_main.iml" filepath="$PROJECT_DIR$/.idea/modules/batchJob/batchJob_main.iml" group="batchJob" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/batchJob/batchJob_test.iml" filepath="$PROJECT_DIR$/.idea/modules/batchJob/batchJob_test.iml" group="batchJob" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/processorDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/processorDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/processorDemo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/processorDemo_main.iml" group="processorDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/processorDemo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/processorDemo_test.iml" group="processorDemo" />
+    </modules>
+  </component>
+</project>

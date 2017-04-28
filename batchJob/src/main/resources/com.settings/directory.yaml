@@ -1,0 +1,5 @@
+dataSourceForJobRepository:
+  driverClassName: oracle.jdbc.OracleDriver
+  url: "jdbc:oracle:thin:@//10.18.19.33:1521/dbdev2"
+  username: sl_main
+  password: sl_main

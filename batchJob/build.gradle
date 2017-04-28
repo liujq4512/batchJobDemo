@@ -1,0 +1,42 @@
+group 'com.liujq'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+
+buildscript {
+    repositories {
+        maven { url 'http://nexus.dianrong.com/nexus/content/groups/public/' }
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.2.RELEASE")
+    }
+}
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    compile group: 'org.springframework', name: 'spring-beans', version: '4.3.5.RELEASE'
+    compile group: 'org.springframework', name: 'spring-context', version: '4.3.5.RELEASE'
+    compile group: 'org.springframework', name: 'spring-core', version: '4.3.5.RELEASE'
+    compile group: 'org.springframework.batch', name: 'spring-batch-core', version: '3.0.7.RELEASE'
+    compile group: 'org.springframework', name: 'spring-jdbc', version: '4.3.5.RELEASE'
+    compile group: 'org.yaml', name: 'snakeyaml', version: '1.17'
+    compile("org.springframework.boot:spring-boot-starter:1.5.3.RELEASE")
+    compile("org.springframework.boot:spring-boot-starter-web:1.5.3.RELEASE")
+    compile fileTree('lib') {
+        include 'ojdbc7.jar'
+    }
+
+
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
